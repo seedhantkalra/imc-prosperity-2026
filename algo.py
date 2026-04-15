@@ -6,3 +6,4 @@ Swap the import below when testing different finalized strategies.
 """
 
 from strategies.strat_kalra import Trader  # change when needed
+

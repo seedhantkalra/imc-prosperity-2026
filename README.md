@@ -68,3 +68,16 @@ Then open a pull request into `main`.
 - No notebook checkpoint files committed
 - Imports are clean
 - Short PR description explains the change
+
+## Backtester Setup
+
+We are using the Prosperity 4 backtester package.
+
+### Setup
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+
